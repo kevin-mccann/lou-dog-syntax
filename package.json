@@ -1,20 +1,10 @@
 {
-  "name": "sublime-syntax",
-  "theme": "syntax",
+  "name": "sublime-default-syntax",
   "version": "0.1.0",
   "description": "Sublime Syntax - Sublime's default colour scheme based on seti-syntax by jesseweed.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Kurtz1993/sublime-syntax"
-  },
+  "repository": "https://github.com/Kurtz1993/sublime-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.170.0"
-  },
-  "readme": "# Sublime Syntax\n\nBased on the seti-syntax by [jesseweed](https://github.com/jesseweed)\n\n![Screenshot](https://github.com/Kurtz1993/sublime-syntax/raw/master/screenshot.png)",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/Kurtz1993/sublime-syntax/issues"
-  },
-  "homepage": "https://github.com/Kurtz1993/sublime-syntax"
+  }
 }
