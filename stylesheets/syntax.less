@@ -286,10 +286,6 @@
 
   .entity {
 
-    &.name.type.object.js.firebug{
-      color: @code-font-color;
-    }
-
     &.name.tag {
       text-decoration: done;
 
@@ -324,6 +320,15 @@
 .entity {
 
   color: @entity;
+
+
+  &.name.type.object.js.firebug{
+    color: @code-font-color;
+  }
+
+  &.name.type.instance.js{
+    color: @blue;
+  }
 
   // console of console.log (js)
   &.name.type {
