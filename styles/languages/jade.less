@@ -1,0 +1,70 @@
+@import "colors";
+
+
+.jade {
+
+  color: @code-font-color;
+
+  .comment.jade {
+    color: @comment;
+  }
+
+  .storage.type.function.jade {
+    color: @keyword;
+  }
+
+  .meta.control.flow.jade {
+    color: @red;
+  }
+
+  .source.script {
+    .meta.brace.round.js, .meta.brace.curly.js {
+      color: @brackets;
+    }
+  }
+
+  .entity {
+
+    &.other.attribute-name.tag.jade{
+      color: @green;
+    }
+
+    &.name.tag.jade {
+      color: @tag;
+    }
+
+  }
+
+  .storage.type.import.include.jade {
+    color: lighten(@green, 20%);
+  }
+
+  .variable.control.import.include.jade {
+    color: @green;
+  }
+
+  .constant {
+
+    &.id {
+      color: @green;
+    }
+
+    &.language.js {
+      color: @purple;
+    }
+
+  }
+
+  .text.jade {
+    color: @code-font-color;
+  }
+
+  .punctuation.separator.key-value.jade {
+    color: @tag;
+  }
+
+  .string.quoted.jade {
+    color: @string;
+  }
+
+}
