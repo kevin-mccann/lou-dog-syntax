@@ -1,7 +1,7 @@
 {
   "name": "sublime-default-syntax",
   "theme": "syntax",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Sublime Syntax - Sublime's default colour scheme based on seti-syntax by jesseweed.",
   "repository": {
     "type": "git",
