@@ -20,12 +20,16 @@
     color: @green;
   }
 
+  .punctuation.definition.tag {
+    color: @white;
+  }
+
   .string.quoted.double {
-    color: lighten(@green, 20%);
+    color: @yellow;
 
     .punctuation.definition.string {
       &.begin, &.end {
-        color: @green;
+        color: @yellow;
       }
 
       .separator.key-value.html {
@@ -34,6 +38,4 @@
 
     }
   }
-
-
 }
