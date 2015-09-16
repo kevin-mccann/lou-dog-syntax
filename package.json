@@ -2,7 +2,7 @@
   "name": "lou-dog-syntax",
   "theme": "syntax",
   "main": "./lib/lou-dog-syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A customized Sublime theme",
   "keywords": [],
   "activationCommands": {
