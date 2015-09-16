@@ -1,10 +1,9 @@
 {
   "name": "lou-dog-syntax",
   "main": "./lib/lou-dog-syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A customized Sublime theme based on sublime-syntax by Kurtz1993",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
